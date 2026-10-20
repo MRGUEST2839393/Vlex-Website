@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0a0a0d">
+<title>VLEX Executor | Official</title>
+<style>
+:root{--red:#f01832;--bg:#08090c;--panel:#121319;--line:#292b35;--muted:#a5a7b2;--white:#f5f5f7}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 50% 0%,#321018 0,transparent 38%),var(--bg);color:var(--white);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+a{color:inherit;text-decoration:none}.wrap{width:min(1080px,92%);margin:auto}.nav{display:flex;align-items:center;justify-content:space-between;padding:22px 0;border-bottom:1px solid #25252c}.brand{display:flex;align-items:center;gap:11px;font-weight:900;letter-spacing:1.5px}.mark{display:grid;place-items:center;width:40px;height:40px;background:var(--red);border-radius:12px;font-size:25px;font-weight:1000;box-shadow:0 0 28px #f0183230}.brand span:last-child{color:var(--red)}.navtag{font-size:12px;color:#d1d1d8;border:1px solid #34343d;border-radius:99px;padding:8px 12px}
+.hero{text-align:center;padding:76px 0 48px}.eyebrow{color:#ff6474;text-transform:uppercase;letter-spacing:3px;font-size:12px;font-weight:800}.hero h1{font-size:clamp(42px,10vw,82px);line-height:.95;margin:18px 0 14px;letter-spacing:-3px}.hero h1 span{color:var(--red);text-shadow:0 0 35px #f0183233}.hero p{max-width:600px;margin:0 auto;color:var(--muted);font-size:16px;line-height:1.7}.actions{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin:28px 0 0}.btn{border:1px solid #383943;border-radius:12px;padding:14px 20px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;gap:9px;cursor:pointer}.btn.primary{background:var(--red);border-color:var(--red);color:white}.btn.secondary{background:#15161c}.notice{max-width:650px;margin:25px auto 0;border:1px solid #39232a;background:#1b1116;color:#c8c0c5;border-radius:12px;padding:12px 15px;font-size:12px;line-height:1.6}
+.section{padding:32px 0 54px}.section-head{text-align:center;margin-bottom:25px}.section-head h2{font-size:27px;margin:0 0 8px}.section-head p{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.card{background:linear-gradient(145deg,#15161d,#0f1015);border:1px solid var(--line);border-radius:17px;padding:22px}.icon{width:44px;height:44px;display:grid;place-items:center;border-radius:12px;background:#2a1118;color:#ff596b;font-size:22px;margin-bottom:17px}.card h3{margin:0 0 8px;font-size:17px}.card p{margin:0;color:var(--muted);font-size:14px;line-height:1.65}.download-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.download-card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:24px;display:flex;flex-direction:column;gap:13px}.download-card h3{margin:0;font-size:22px}.download-card p{margin:0;color:var(--muted);line-height:1.6;font-size:14px}.download-card .btn{width:100%;margin-top:5px}.status{font-size:11px;letter-spacing:1px;color:#ff8793;font-weight:900}.footer{border-top:1px solid #24252c;padding:25px 0 35px;color:#858792;font-size:12px;text-align:center}.footer strong{color:#f3f3f6}.small{font-size:12px;color:#888b96}
+@media(max-width:700px){.hero{padding:55px 0 38px}.grid{grid-template-columns:1fr}.download-grid{grid-template-columns:1fr}.navtag{display:none}.card{padding:19px}.hero h1{letter-spacing:-2px}}
+</style>
+</head>
+<body>
+<header class="wrap nav">
+  <a class="brand" href="#inicio" aria-label="VLEX Executor inicio"><span class="mark">V</span><span>VLEX <span>EXECUTOR</span></span></a>
+  <a class="navtag" href="#descargas">CENTRO DE DESCARGAS</a>
+</header>
+<main>
+<section class="wrap hero" id="inicio">
+  <div class="eyebrow">Un proyecto con identidad propia</div>
+  <h1><span>VLEX</span><br>EXECUTOR</h1>
+  <p>Una página central para conocer el proyecto VLEX, consultar sus novedades y acceder a herramientas de desarrollo y pruebas de scripts para Roblox Studio.</p>
+  <div class="actions"><a class="btn primary" href="#descargas">↓ Ver descargas</a><a class="btn secondary" href="#caracteristicas">Explorar proyecto ↘</a></div>
+  <div class="notice">Aviso: esta es la página inicial del proyecto. Las descargas se habilitarán cuando existan archivos reales, revisados y listos para distribuir. Para probar scripts de Roblox, usa Roblox Studio y sus herramientas oficiales.</div>
+</section>
+<section class="wrap section" id="caracteristicas">
+  <div class="section-head"><h2>Diseñado para tu espacio de trabajo</h2><p>Interfaz oscura, acentos rojos y diseño adaptable a móvil y PC.</p></div>
+  <div class="grid">
+    <article class="card"><div class="icon">⌘</div><h3>Workspace de scripts</h3><p>Organiza tus proyectos Lua y prepara ejemplos para probarlos en Roblox Studio.</p></article>
+    <article class="card"><div class="icon">▣</div><h3>Diseño multiplataforma</h3><p>Una página preparada para verse bien desde Android, tabletas y computadoras.</p></article>
+    <article class="card"><div class="icon">✓</div><h3>Descargas transparentes</h3><p>Publica versiones, requisitos y notas de cambios cuando haya compilaciones disponibles.</p></article>
+  </div>
+</section>
+<section class="wrap section" id="descargas">
+  <div class="section-head"><h2>Centro de descargas</h2><p>Elige tu plataforma para consultar el estado del proyecto.</p></div>
+  <div class="download-grid">
+    <article class="download-card"><div class="icon">▯</div><div class="status">ANDROID · APK</div><h3>VLEX para Android</h3><p>El enlace se añadirá cuando exista un APK propio, verificado y listo para instalar.</p><button class="btn secondary" type="button" onclick="showStatus('Android')">Consultar estado</button></article>
+    <article class="download-card"><div class="icon">▰</div><div class="status">WINDOWS · EXE</div><h3>VLEX para Windows</h3><p>El enlace se añadirá cuando exista una aplicación propia, verificada y lista para distribuir.</p><button class="btn secondary" type="button" onclick="showStatus('Windows')">Consultar estado</button></article>
+  </div>
+  <p class="small" style="text-align:center;margin-top:18px">No se ofrece ninguna descarga hasta que el archivo correspondiente esté disponible.</p>
+</section>
+</main>
+<footer class="footer"><div class="wrap"><strong>VLEX EXECUTOR</strong> · Página de proyecto independiente.<br><span>Este sitio no está afiliado ni respaldado por Roblox Corporation o Delta Executor.</span></div></footer>
+<script>
+function showStatus(platform){alert("VLEX para "+platform+": el archivo todavía no está publicado. Esta página es una plantilla inicial; añade un enlace de descarga verificado cuando tu aplicación esté lista.");}
+</script>
+</body>
+</html>
